@@ -21,21 +21,27 @@ This repository captures every simulation, script, and visual asset produced in 
 
 ```
 Entropy-Collapse-Research/
-├── Scripts/                       # All simulation and test scripts
-│   ├── Entropy Collapse Test/     # Final script iterations by phase
-│   ├── Data/                      # Raw datasets (hlsp, entropy_data, water_vapor, horizon_table)
-│   └── Tagged_Scripts_All_Phases.csv  # Script-to-equation full index
-├── Figures/                       # Visual outputs and metadata
-│   ├── Figure Data/               # Figure evolution, wave clusters, and script/eq mappings
+├── Entropy_Hypothesis_History/      # Early drafts, raw notes, and references
+├── Figures/                         # Visual outputs and metadata
+│   ├── Figures Datas/               # Figure evolution, wave clusters, and script/eq mappings
 │   │   ├── Figure_Development_Sets.csv
 │   │   ├── Figure_Script_Equation_Map.csv
 │   │   ├── Figure_Waves_Timeline.csv
-│   ├── Figure_X.png               # Core visual renderings
-├── LaTex/                         # Draft papers and supporting derivations
-├── Entropy_Hypothesis_History/   # Early drafts, raw notes, and references
-├── README.md                      # This document
-├── LICENSE
+│   ├── Figure_X.png                 # Core visual renderings
+├── LaTex/                           # Draft papers and supporting derivations
+├── Scripts/                         # All simulation and test scripts
+│   ├── Data/                        # Raw datasets (hlsp, entropy_data, water_vapor, horizon_table)
+│   │   ├── entropy_data.csv
+│   │   ├── entropy_horizon_table.csv
+│   │   ├── entropy_water_vapor.csv
+│   │   ├── hlsp_*.csv (Roman WFI simulated data)
+│   ├── Entropy Collapse Test/       # Final script iterations by phase
+│   ├── Tagged_Scripts_All_Phases.csv  # Script-to-equation full index
+├── .gitignore
 ├── CHANGELOG.md
+├── FIGURE_DEVELOPMENT.md
+├── LICENSE
+├── README.md
 ```
 
 ---
@@ -51,12 +57,13 @@ Entropy-Collapse-Research/
 
 ## 📊 Data & Visuals
 
-- Visuals are stored in `/Figures`, with evolution metadata in `/Figures/Figure Data`
+- Visuals are stored in `/Figures`, with evolution metadata in `/Figures/Figures Datas`
 - Key files include:
   - `Figure_Script_Equation_Map.csv`
   - `Figure_Development_Sets.csv`
   - `Figure_Waves_Timeline.csv`
 - Scripts are indexed in `Tagged_Scripts_All_Phases.csv`
+- Observational inputs live under `Scripts/Data`
 
 ---
 
